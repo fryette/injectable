@@ -15,7 +15,10 @@ dependencies:
   code_builder: ^4.0.0
   dart_style: ^2.0.1
   injectable:
-    path: ../injectable
+    git:
+      url: https://github.com/fryette/injectable.git
+      path: injectable
+      ref: make_ref_from_git
   collection: ^1.15.0
 dev_dependencies:
   build_runner: ^2.0.3

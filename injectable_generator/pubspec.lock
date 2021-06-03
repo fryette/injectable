@@ -235,9 +235,11 @@ packages:
   injectable:
     dependency: "direct main"
     description:
-      path: "../injectable"
-      relative: true
-    source: path
+      path: injectable
+      ref: make_ref_from_git
+      resolved-ref: ba2c1a7e22084c9493349885ddb8378075c5606b
+      url: "https://github.com/fryette/injectable.git"
+    source: git
     version: "1.4.1"
   io:
     dependency: transitive
